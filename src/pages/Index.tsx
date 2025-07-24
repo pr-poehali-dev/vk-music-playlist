@@ -56,15 +56,30 @@ const Index = () => {
     },
     {
       id: 3,
+      name: 'FGFGB',
+      description: 'Плейлист от Матвея Куликова',
+      cover: '/img/d8653a86-228e-4bc1-b1a6-89215ac2bc42.jpg',
+      trackCount: 18,
+      duration: '1ч 12мин',
+      tracks: [
+        { id: 7, title: 'Phonk House', artist: 'DJ Smokey', duration: '3:45', isPlaying: false },
+        { id: 8, title: 'Night Lovell', artist: 'Still Cold', duration: '4:12', isPlaying: false },
+        { id: 9, title: 'Aggressive Phonk', artist: 'KORDHELL', duration: '2:58', isPlaying: false },
+        { id: 10, title: 'Tokyo Drift', artist: 'Teriyaki Boyz', duration: '4:33', isPlaying: false },
+        { id: 11, title: 'Ghostemane', artist: 'Mercury', duration: '3:21', isPlaying: false },
+      ]
+    },
+    {
+      id: 4,
       name: 'Электронная музыка',
       description: 'EDM и синтвейв коллекция',
       cover: '/img/3a16ba49-8969-4887-8894-081ce97586a4.jpg',
       trackCount: 35,
       duration: '2ч 12мин',
       tracks: [
-        { id: 7, title: 'One More Time', artist: 'Daft Punk', duration: '5:20', isPlaying: false },
-        { id: 8, title: 'Strobe', artist: 'Deadmau5', duration: '10:32', isPlaying: false },
-        { id: 9, title: 'Satisfaction', artist: 'Benny Benassi', duration: '4:51', isPlaying: false },
+        { id: 12, title: 'One More Time', artist: 'Daft Punk', duration: '5:20', isPlaying: false },
+        { id: 13, title: 'Strobe', artist: 'Deadmau5', duration: '10:32', isPlaying: false },
+        { id: 14, title: 'Satisfaction', artist: 'Benny Benassi', duration: '4:51', isPlaying: false },
       ]
     }
   ];
