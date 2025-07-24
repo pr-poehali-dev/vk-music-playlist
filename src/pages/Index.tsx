@@ -71,15 +71,43 @@ const Index = () => {
     },
     {
       id: 4,
+      name: 'Русский рок',
+      description: 'Король и Шут, Сектор Газа и другие',
+      cover: '/img/ccf01406-f73f-4b1f-a1c9-9f9ad6d21fcb.jpg',
+      trackCount: 18,
+      duration: '1ч 23мин',
+      tracks: [
+        { id: 15, title: 'Мёртвый Анархист', artist: 'Король и Шут', duration: '4:12', isPlaying: false },
+        { id: 16, title: 'Золото мёртвых', artist: 'NAGART', duration: '3:45', isPlaying: false },
+        { id: 17, title: 'Демобилизация', artist: 'Сектор Газа', duration: '4:03', isPlaying: false },
+        { id: 18, title: 'Твой звонок', artist: 'Сектор Газа', duration: '3:28', isPlaying: false },
+        { id: 19, title: 'Лирика', artist: 'Сектор Газа', duration: '4:15', isPlaying: false },
+        { id: 20, title: 'Камнем по голове', artist: 'КиШ', duration: '3:52', isPlaying: false },
+        { id: 21, title: 'Охотник', artist: 'Король и Шут', duration: '4:08', isPlaying: false },
+        { id: 22, title: 'Пиво-Пиво-Пиво', artist: 'КняZz', duration: '3:33', isPlaying: false },
+        { id: 23, title: 'Лесник', artist: 'Король и Шут', duration: '4:22', isPlaying: false },
+        { id: 24, title: 'Танец злобного гения', artist: 'Король и Шут', duration: '3:47', isPlaying: false },
+        { id: 25, title: 'Кукла колдуна', artist: 'Король и Шут', duration: '4:01', isPlaying: false },
+        { id: 26, title: 'Дагон', artist: 'Король и Шут', duration: '3:39', isPlaying: false },
+        { id: 27, title: 'Прыгну со скалы', artist: 'Король и Шут', duration: '4:18', isPlaying: false },
+        { id: 28, title: 'Бомж', artist: 'Сектор Газа', duration: '3:25', isPlaying: false },
+        { id: 29, title: 'Дурак и молния', artist: 'Король и Шут', duration: '4:05', isPlaying: false },
+        { id: 30, title: 'Музыка нас связала', artist: 'Мираж', duration: '3:41', isPlaying: false },
+        { id: 31, title: 'Komarovo (DVRST Phonk Remix)', artist: 'DVRST, Игорь Скляр', duration: '2:58', isPlaying: false },
+        { id: 32, title: 'Всё, что касается', artist: 'Звери', duration: '3:54', isPlaying: false },
+      ]
+    },
+    {
+      id: 5,
       name: 'Электронная музыка',
       description: 'EDM и синтвейв коллекция',
       cover: '/img/3a16ba49-8969-4887-8894-081ce97586a4.jpg',
       trackCount: 35,
       duration: '2ч 12мин',
       tracks: [
-        { id: 12, title: 'One More Time', artist: 'Daft Punk', duration: '5:20', isPlaying: false },
-        { id: 13, title: 'Strobe', artist: 'Deadmau5', duration: '10:32', isPlaying: false },
-        { id: 14, title: 'Satisfaction', artist: 'Benny Benassi', duration: '4:51', isPlaying: false },
+        { id: 33, title: 'One More Time', artist: 'Daft Punk', duration: '5:20', isPlaying: false },
+        { id: 34, title: 'Strobe', artist: 'Deadmau5', duration: '10:32', isPlaying: false },
+        { id: 35, title: 'Satisfaction', artist: 'Benny Benassi', duration: '4:51', isPlaying: false },
       ]
     }
   ];
